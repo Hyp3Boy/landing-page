@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap");
+
+* {
+  font-family: "Roboto Mono", monospace;
+}
 header {
   font-family: "Roboto", sans-serif;
   background-color: #1f2937;
@@ -85,9 +90,13 @@ p {
 #hero p {
   padding-bottom: 20px;
 }
+#hero h1 {
+  text-align: left;
+}
 
 body h1 {
   text-align: center;
+
   font-size: 36px;
   font-weight: bolder;
   color: #1f2937;
@@ -136,6 +145,7 @@ body h1 {
   width: 30%;
   align-self: flex-end;
 }
+/*call to action*/
 #section3 {
   display: flex;
   justify-content: center;
@@ -145,11 +155,23 @@ body h1 {
 #call-text {
   display: flex;
   flex-direction: column;
+  margin: 20px 90px;
 }
 #calltoaction {
   display: flex;
   align-items: center;
   background-color: #3882f6;
+  border-radius: 10px;
+  gap: 120px;
+}
+#calltoaction h2,
+#calltoaction p {
+  align-self: flex-start;
+}
+#calltoaction h2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
 }
 #calltoaction p {
   color: #e5e7eb;
@@ -157,6 +179,13 @@ body h1 {
 #calltoaction h2,
 button {
   color: #f9faf8;
+}
+#calltoaction button {
+  background-color: #3882f6;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 5px 30px;
+  margin-right: 90px;
 }
 
 /* footer */
